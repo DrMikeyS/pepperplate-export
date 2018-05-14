@@ -1,0 +1,29 @@
+{
+  "name": "Pepperplate Export",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "",
+  "browser_action": {
+    "default_icon": "firebase-logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>","identity","downloads"],
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://*.googleapis.com https://cdn.firebase.com; object-src 'self'",
+  "oauth2": {
+     "client_id": "82135187517-ovve70b82c83r9jghajd43b4f3mc6i1t.apps.googleusercontent.com",
+     "scopes": [
+       "https://www.googleapis.com/auth/userinfo.email",
+       "https://www.googleapis.com/auth/userinfo.profile"
+     ]
+   },
+   "key": "-----BEGIN PUBLIC KEY-----
+   MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlAC8cvAmhfpUVawU567A
+   o2blFzesdWlZa1WugR+zOUYQtX51jz50r66QaBa3uWVIxyUcD4R55UqDmLd0a8Xj
+   VpD1NiUHGhGkNkuByZHYVRRyjUKUoqM661juLm5oA5DZiT3D2DTQUKKpIIPQLBXG
+   wrqWt3fjhJcPEQY2A5BcKQrDO3hrczMK+iefJvSQ/K7dyG+pSoBcQrLDBoseVDMn
+   XAhBTUZ0yNDp6r9n2pZVF/XKyGLos2NlRMEfRmO1MEMyJPA/l3c//cv72BhwmI7V
+   Z2/aYRD99xUjel9tcG2uVRo2Xwbi36kgTjxuWRwz/MdMQccU0dv+skmicDFs30m7
+   FQIDAQAB
+   -----END PUBLIC KEY-----
+   "
+}
